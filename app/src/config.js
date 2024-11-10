@@ -19,6 +19,7 @@ function getIPv4() {
 
 //const IPv4 = getIPv4(); // Replace it with the Server Public IPv4 in production.
 const IPv4=process.env.IPv4
+console.log("process.env.IPv4=", IPv4)
 
 const numWorkers = require('os').cpus().length;
 
