@@ -31,4 +31,4 @@ COPY public public
 
 # Set default command to start the application
 #CMD ["npm", "start"]
-CMD []
+CMD ["sleep", "infinity"]
