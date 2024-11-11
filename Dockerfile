@@ -31,4 +31,4 @@ COPY public public
 
 # Set default command to start the application
 #CMD ["npm", "start"]
-CMD ls -la && cd .. && ls-la
+CMD bash
