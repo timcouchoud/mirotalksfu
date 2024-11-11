@@ -26,8 +26,8 @@ RUN apt-get purge -y --auto-remove build-essential python3-pip \
 && rm -rf /tmp/* /var/tmp/* /usr/share/doc/*
 
 # Copy the application code
-COPY app app
-COPY public public
+COPY ./app ./app
+COPY ./public ./public
 
 # Set default command to start the application
 #CMD ["npm", "start"]
