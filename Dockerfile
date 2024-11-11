@@ -30,5 +30,4 @@ COPY app app
 COPY public public
 
 # Set default command to start the application
-#CMD ["npm", "start"]
-CMD ls -la
+CMD ["npm", "start"]
